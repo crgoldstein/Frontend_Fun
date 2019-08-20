@@ -1,0 +1,158 @@
+<!doctype html>
+<head>
+  <title>Claire Goldstein- Front-end Developer</title>
+  <link rel="stylesheet" type="text/css" href="css/index0.css" media="screen" />
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- AOS Animate on Scroll https://michalsnik.github.io/aos/ -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <script src="js/index0-section2.js"></script>
+</head>
+
+<body >
+  <script>
+    AOS.init({
+      once: false,
+    });
+  </script>
+
+  <header>
+     <nav class="navbar navbar-inverse">
+       <div class="container-fluid">
+         <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Claire</a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                  <li class="smooth-menu"><a href="#section1">One</a></li>
+                  <li class="smooth-menu"><a href="#section2">Two</a></li>
+                  <li class="smooth-menu"><a href="#section3">Three</a></li>
+                  <li class="smooth-menu"><a href="#section4">Four</a></li>
+             </ul>
+          </div>
+    </div> <!--end of container-fluid-->
+    </nav>
+  </header>
+
+  <div id="background" class="container" >
+      <section id="section1" class="row">
+          <div class="sectionContent animated rollIn delay-2s">
+             <h1>Hello Section 1</h1>
+          </div>
+      </section>
+
+      <section id="section2" id="trigger" class="row">
+        <div class=" sectionContent col-sm-6 col-md-6 col-lg-6" data-aos="fade-down" data-aos-delay="500" data-aos-duration="2000">
+          <h1>Hello Section 2</h1>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-6">
+            <div class="tile tile2" data-aos="fade-left" data-aos-delay="500" data-aos-duration="1000"> tile </div>
+            <div class="tile tile2" data-aos="fade-left" data-aos-delay="500" data-aos-duration="1000"> tile </div>
+            <div class="tile tile2" data-aos="fade-left" data-aos-delay="500" data-aos-duration="1000"> tile </div>
+            <div class="tile tile2" data-aos="fade-left" data-aos-delay="500" data-aos-duration="1000"> tile </div>
+
+        <div>
+      </section>
+
+      <section id="section3" >
+        <div class="row">
+            <div class="col-sm-6" data-aos="fade-top" data-aos-delay="500" data-aos-duration="1000">
+              <div class="tile3">
+                <img src="https://cdn.pixabay.com/photo/2016/12/13/05/15/puppy-1903313__340.jpg" alt="puppy" class="image">
+                  <div class="overlay">
+                      Hello
+                  </div>
+               </div>
+            </div>
+            <div class="col-sm-6" data-aos="fade-top" data-aos-delay="500" data-aos-duration="1000">
+                <div class="tile3">
+                  <img src="" alt="Tile" class="image">
+                    <div class="overlay">
+                        Hello
+                    </div>
+                 </div>
+               </div>
+            <div class="col-sm-6" data-aos="fade-top" data-aos-delay="500" data-aos-duration="1000">
+              <div class="tile3">
+                  <img src="" alt="Tile" class="image">
+                    <div class="overlay">
+                        Hello
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-6" data-aos="fade-top" data-aos-delay="500" data-aos-duration="1000">
+                <div class="tile3">
+                  <img src="" alt="Tile" class="image">
+                    <div class="overlay">
+                        Hello
+                    </div>
+                 </div>
+               </div>
+            <div class="col-sm-4" data-aos="fade-top" data-aos-delay="500" data-aos-duration="1000">
+               <div class="tile3">
+                 <img src="" alt="Tile" class="image">
+                   <div class="overlay">
+                       Hello
+                   </div>
+                </div>
+              </div>
+            <div class="col-sm-4" data-aos="fade-top" data-aos-delay="500" data-aos-duration="1000">
+              <div class="tile3">
+                <img src="" alt="Tile" class="image">
+                  <div class="overlay">
+                      Hello
+                  </div>
+               </div>
+             </div>
+            <div class="col-sm-4" data-aos="fade-top" data-aos-delay="500" data-aos-duration="1000">
+             <div class="tile3">
+               <img src="" alt="Tile" class="image">
+                 <div class="overlay">
+                     Hello
+                 </div>
+              </div>
+            </div>
+        </div><!-- End of row -->
+
+      </section>
+
+      <section id="section4" class="row">
+          <div class="sectionContent">
+            <h1>Hello Section 4</h1>
+
+          </div>
+      </section>
+
+      <!-- <section id="section5" class="row">
+          <div class="sectionContent">
+              <h1>Hello Section 5</h1>
+          </div>
+      </section>
+
+      <section id="section6" class="row">
+          <div class="sectionContent">
+              <h1>Hello Section 6</h1>
+          </div>
+      </section> -->
+  </div>
+
+  <footer>
+    <h3>Footer</h3>
+  </footer>
+
+</body>

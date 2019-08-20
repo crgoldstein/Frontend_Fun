@@ -1,0 +1,111 @@
+body{
+  background-color: black;
+  background-image: url("../mtn.jpg");/* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 100%;
+}
+/* Start -- Header with Navigation */
+header{
+   position: fixed;
+   z-index: 4000000;
+   width: 100%;
+   left: 0;
+   top: 0;
+   cursor: pointer;
+ }
+.navbar-inverse {
+     background-color: gray !important;
+}
+.navbar-inverse a{
+  color: white !important;
+}
+.navbar-inverse a:hover{
+  color: black !important;
+}
+/* End -- Header with Navigation */
+
+
+
+
+section{
+    padding-top: 50px;
+    min-height: 900px;
+    margin: 0% 2.5%;
+    border: 2px red solid;
+}
+.sectionContent{
+    height: 900px;
+    color: white;
+    padding: 20px;
+}
+#section1 span{
+  font-size: 3rem;
+  letter-spacing: -.025em;
+  line-height: 1em;
+  font-family: 'Barriecito', cursive;
+}
+#section1 h1{
+  color:white;
+  font-size: 2.5rem;
+}
+#section1{
+  cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/happy.png"), auto;
+}
+
+.content-line{
+  text-align: center;
+}
+.content-word{
+  display: inline-block;
+}
+.color-primary{
+  color: lightgray;
+  line-height: 1.25em;
+}
+.color{
+  transition : 5s;
+  transition-timing-function: ease;
+}
+.color:hover{
+  -webkit-transition: color 0.01s;
+}
+.color-1:hover{
+  color:#B8B8D1;
+}
+.color-2:hover{
+  color:#06D6A0;
+}
+.color-3:hover{
+  color:#1B9AAA;
+}
+.color-4:hover{
+  color:#EF476F;
+}
+.color-5:hover{
+  color:#FFC43D;
+}
+
+
+#section2 div{
+    background-color:#B8B8D1;
+}
+
+#section3 div{
+    background-color:#06D6A0;
+}
+
+#section4 div{
+    background-color: #1B9AAA;
+}
+
+#section5 div{
+    background-color:#EF476F;
+}
+
+#section6 div{
+    background-color:#FFC43D;
+}

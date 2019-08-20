@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* background-color: #/; */
+  font-family: Helvetica, sans-serif;
+}
+
+.timeline {
+  position: relative;
+  width: 660px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 1em 0;
+  border:  3px blue solid;
+}
+
+.col-xs-5 ,.col-xs-6{
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+.A{
+  text-align: center;
+}
+
+#Education .col-xs-5{
+    border-right:  3px gray solid;
+}
+
+.details{
+  border: red 4px solid;
+}
+
+/* Container around content */
+.tile{
+  padding: 10px 5px;
+  position: relative;
+  background-color: inherit;
+}
+
+
+.content {
+  padding: 5px ;
+  background-color: gray;
+  color:white;
+  /* position: relative; */
+
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+#Education .content {
+    float: right;
+}
+#Empolyment .content {
+    float: left;
+}
+/* Colors of tiles  */
+
+.mdg{
+    background-color: #d7df23;
+}
+.csu, .TA{
+    background-color: #276337;
+}
+.TP{
+    background-color: #00507f;
+}
+.UCT{
+  background-color: #00ADF4;
+}
+.UCT:hover , .TP:hover ,.TA:hover,.csu:hover,.mdg:hover{
+    background-color: lightgray;
+}
